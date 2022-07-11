@@ -1,0 +1,44 @@
+:root {
+    --background-color: #001D3D;
+    --background-color-secondary: rgb(13 110 253 / 25%);
+    --text-color: #dee2e6;
+    --hover-color: #dee2e6cc;
+}
+
+body {
+    font-family: Roboto;
+    background-color: var(--background-color);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: var(--background-color-secondary);
+}
+
+.nav-link {
+    color: var(--text-color);
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: var(--hover-color);
+}
+
+.custom-bg {
+    --bs-bg-opacity: 1;
+    background-color: rgb(13 110 253 / 5%)!important;
+}
+
+.card-img-top {
+    width: 200px;
+    align-self: center;
+}
+
+.button {
+    color: #fff;
+    background-color: var(--background-color-secondary);
+}
+
+.button:hover, 
+.button:focus {
+    color: var(--text-color);
+}
